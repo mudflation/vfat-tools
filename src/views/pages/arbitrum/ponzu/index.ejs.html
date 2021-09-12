@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include(`${partials}/head`); -%>
+
+<body>
+<%- include(`${partials}/header_main`); -%>
+<pre id="log">
+*************** 👨‍🌾 UNOFFICIAL PONZU FARMING CALCULATOR 👨‍🌾 ***************
+INFO  : https://ponzu.club/
+**************************************************************************
+
+WARNING: Staking through vfat is currently broken. 
+         Visit <a href="https://ponzu.club/">https://ponzu.club/</a> to single stake ETH and NYAN!
+
+</pre>
+<div class="loader--1"></div>
+<%- include(`${partials}/scripts`, {scriptname: 'arbitrum_ponzu'}); -%>
+</body>
+</html> 
